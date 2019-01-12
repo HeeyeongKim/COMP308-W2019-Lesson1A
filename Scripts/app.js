@@ -7,6 +7,7 @@ let myGlobalVariable = 0;
 (function(){
     let myFunctionVariable = 0;
 
+    /*
     // Version #1
     function Start() {
         let startVariable = 0;
@@ -30,7 +31,8 @@ let myGlobalVariable = 0;
         console.log(`%c App Started... ${myFunctionVariable}`, "font-size: 20px; color:blue;");
     }
    // window.addEventListener("load", Start);
-    
+    */
+   
     function Start() {
         // log, info, warn, error
         console.log(`%c App Started...`, "font-size: 20px; color:blue;");
